@@ -1,0 +1,51 @@
+# Project information
+site_name: 'Fennek Hosting Panel'
+site_description: 'Dein (Game-)Server Hosting Panel, virtualisiert mit Docker.'
+site_author: 'Sebastian Mikolai'
+site_url: 'https://fennek-panel.de'
+
+# Repository
+repo_name: 'FennekPanel/docs'
+repo_url: 'https://github.com/FennekPanel/docs'
+
+# Copyright
+copyright: 'Copyright &copy; 2018 Sebastian Mikolai'
+
+# Configuration
+theme:
+  name: 'material'
+  palette:
+    primary: 'deep orange'
+    accent: 'orange'
+  logo: 'images/logo.png'
+  favicon: 'images/favicon.png'
+  language: 'de'
+  font: false
+
+# Customization
+extra:
+  search:
+    language: 'de, en'
+    tokenizer: '[\s\-\.]+'
+  social:
+    - type: 'github'
+      link: 'https://github.com/FennekPanel'
+    - type: 'twitter'
+      link: 'https://twitter.com/FennekPanel'
+    - type: 'facebook'
+      link: 'https://facebook.com/FennekPanel'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.tilde
+  - pymdownx.mark
